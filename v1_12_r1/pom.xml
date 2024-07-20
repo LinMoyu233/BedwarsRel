@@ -23,7 +23,8 @@
       <groupId>org.bukkit</groupId>
       <artifactId>craftbukkit</artifactId>
       <version>1.12-R0.1-SNAPSHOT</version>
-      <scope>provided</scope>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/../lib/spigot-1.12.2.jar</systemPath>
     </dependency>
   </dependencies>
 
